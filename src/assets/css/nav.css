@@ -11,6 +11,10 @@
   justify-content: space-around;
   align-items: center;
 }
+.nav-items {
+  display: flex;
+  align-items: center;
+}
 .logo-container {
   display: flex;
   align-items: center;
@@ -32,7 +36,7 @@ h3 {
 a {
   padding: 1rem;
 }
-a:hover{
+a:hover {
   color: white;
 }
 h3 {
@@ -67,4 +71,16 @@ h3 {
 
 .underline-hover:hover::after {
   transform: scaleX(1);
+}
+.contact-us {
+  background-color: rgba(165, 138, 138, 0.5);
+  border-radius: 50px;
+  height: 10px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  line-height:0%;
+  padding: 15px 20px 15px 20px;
 }
