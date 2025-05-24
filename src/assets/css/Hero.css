@@ -69,6 +69,7 @@ body {
   font-size: inherit;
   color: #c2a878;
   z-index: 20;
+  position: relative;
 }
 
 .hero-h3-1, .p-text {
