@@ -81,6 +81,12 @@ h3 {
   align-items: center;
   text-align: center;
   justify-content: center;
-  line-height:0%;
-  padding: 15px 20px 15px 20px;
+  line-height: 0%;
+  padding: 15px 20px;
+  transition: background-color 0.2s ease 0.2s, color 0.2s ease 0.2s;
+}
+
+.contact-us:hover{
+  background-color: white;
+  color: black;
 }

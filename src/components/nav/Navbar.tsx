@@ -13,10 +13,10 @@ function Navbar() {
       
       <div className='nav-items'>
         <Link to="/" className='underline-hover'>Home</Link>
-        <Link to="/products" className='underline-hover'>Products</Link>
-        <a href="" className='underline-hover'>Solutions</a>
-        <a href="" className='underline-hover'>Testimonials</a>
-        <a href="" className='contact-us'>Contact Us</a>
+        <Link to="/products" className='underline-hover'>About</Link>
+        <Link to="/" className='underline-hover'>Services</Link>
+        <Link to="/" className='underline-hover'>Testimonials</Link>
+        <Link to="/" className='contact-us'>Contact Us</Link>
       </div>
       </div>
       </div>
