@@ -1,0 +1,57 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.hero-component {
+  position: relative;
+  width: min-content;
+}
+.hero-text-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 90px;
+  align-items: end;
+  justify-content: center;
+  justify-items: anchor-center;
+  align-content: center;
+}
+
+.hero-h3-1 {
+  font-size: clamp(3rem, 10vw, 15rem);
+}
+.hero-span {
+  font-size: clamp(3rem, 10vw, 15rem);
+  font-style: italic;
+  color: #c2a878;
+}
+
+.box2 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.box3 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.box4 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+  text-align: justify;
+}
+.box3 h3, .box4 h3{
+  font-size: clamp(16px, 2vw, 20px);
+  color: #d4d4d4;
+}

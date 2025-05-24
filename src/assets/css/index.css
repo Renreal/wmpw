@@ -1,0 +1,11 @@
+:root {
+  background-color: #000000;
+}
+span, a, h3{
+  font-family: 'Teko', sans-serif;
+  line-height: 1.75rem;
+}
+
+a{
+  text-decoration: none;
+}

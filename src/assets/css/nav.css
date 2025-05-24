@@ -1,0 +1,70 @@
+.fixed-nav {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.nav-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.logo-container img {
+  width: 2rem;
+  background: white;
+  padding: 5px;
+  height: 2rem;
+}
+span,
+a,
+h3 {
+  font-size: 20px;
+  color: #d4d4d4;
+}
+a {
+  padding: 1rem;
+}
+a:hover{
+  color: white;
+}
+h3 {
+  margin: 0;
+  font-size: 12px;
+}
+.logo-container span {
+  font-size: 12px;
+  font-family: "WindSong", cursive;
+  color: #c2a878;
+  margin-right: 5px;
+}
+
+.underline-hover {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.underline-hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  height: 2px;
+  width: 100%;
+  background-color: #ffffff;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.underline-hover:hover::after {
+  transform: scaleX(1);
+}
