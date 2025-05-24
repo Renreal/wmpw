@@ -21,7 +21,7 @@ body {
   justify-items: anchor-center;
   align-content: center;
 }
-@media (max-width:1480px){
+@media (max-width:1300px){
   .hero-text-container{
     display: flex;
     gap: 20px;
