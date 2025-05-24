@@ -1,11 +1,9 @@
-import Navbar from './components/nav/Navbar.tsx'
 import Waves from './components/templates/WaveBackground.tsx';
 import Hero from './components/sections/Hero.tsx';
 function Home() {
 
   return (
     <>
-    <Navbar/>
 
 
 <Waves

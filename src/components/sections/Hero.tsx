@@ -14,7 +14,7 @@ function Hero() {
     <div className="hero-component">
       <div className="hero-text-container">
         <div className="box1">
-          <h3 className="hero-h3-1">PRIVATE</h3>
+         <span className="p-text">P</span><span className="hero-h3-1">RIVATE</span>
         </div>
         <div className="box2">
           <span className="hero-span">WEALTH</span>
@@ -23,8 +23,6 @@ function Hero() {
           <h3>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Repellendus, aliquam distinctio veniam deleniti nam vel
-            reprehenderit incidunt praesentium mollitia libero odit fuga nemo
-            commodi repellat recusandae tempore veritatis, nesciunt quidem.
           </h3>
         </div>
         <div className="box4">

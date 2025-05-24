@@ -1,4 +1,5 @@
 import '../../assets/css/nav.css'
+import { Link } from "react-router-dom";
 import logoBrown from '../../assets/logo/icon logo/SVG/WM Private_iconlogo_1.svg';
 function Navbar() {
   return (
@@ -11,8 +12,8 @@ function Navbar() {
       </div>
       
       <div className='nav-items'>
-        <a href="" className='underline-hover'>Home</a>
-        <a href="" className='underline-hover'>Products</a>
+        <Link to="/" className='underline-hover'>Home</Link>
+        <Link to="/products" className='underline-hover'>Products</Link>
         <a href="" className='underline-hover'>Solutions</a>
         <a href="" className='underline-hover'>Testimonials</a>
         <a href="" className='underline-hover'>Contact Us</a>
