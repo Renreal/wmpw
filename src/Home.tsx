@@ -7,8 +7,8 @@ function Home() {
 
 
 <Waves
-  lineColor="rgba(223, 100, 18, 0.36)"
-  // backgroundColor="rgba(223, 100, 18, 0.86)"
+  lineColor="rgba(189, 119, 40, 0.82)"
+  backgroundColor="rgba(1, 4, 27, 0.94)"
   waveSpeedX={0.02}
   waveSpeedY={0.01}
   waveAmpX={40}
