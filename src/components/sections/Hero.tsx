@@ -17,7 +17,8 @@ function Hero() {
          <span className="p-text">P</span><span className="hero-h3-1">RIVATE</span>
         </div>
         <div className="box2">
-          <span className="hero-span">WEALTH</span>
+          <span className="hero-span">dunidubidan[papd
+          </span>
         </div>
         <div className="box3">
           <h3>
